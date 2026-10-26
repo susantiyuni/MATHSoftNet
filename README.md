@@ -9,12 +9,11 @@ _MATHSoftNet_ is a multi-view dataset of mathematical software integrating exper
 
 - [Dataset Sizes and Statistics](#dataset-sizes-and-statistics)
 - [Key Features and Data Samples](#key-features-and-data-samples)
-- [Data Construction and Validation](#construction-and-validation)
+- [Data Construction, Validation, Usage](#data-construction-validation-usage)
   - [Prerequisites](#prerequisites)
   - [Data Harvesting and Construction](#data-harvesting-and-construction)
   - [Data Preprocessing and Validation](#data-preprocessing-and-validation)
   - [Data Usage](#data-usage)
-- [Repository Structure](#repository-structure)
 - [License](#license)
 - [Citation](#citation)
 - [Contact and Maintenance](#contact-and-maintenance)
