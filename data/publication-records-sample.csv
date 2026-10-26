@@ -1,0 +1,201 @@
+paper_id,title
+1570912,\((1+i)\)-ary GCD computation in \(\mathbb Z[i]\) as an analogue to the binary GCD algorithm.
+1254036,CALYPSO: A computer algebra library for parallel symbolic computation
+5566485,Regularity of the Euclid algorithm; application to the analysis of fast GCD algorithms
+1630137,Fault-tolerance mechanisms for a parallel programming system -- a responsiveness perspective
+434599,Vista: A system for remote data visualization
+6069716,An introduction to analysis of financial data with R.
+6812419,Analyzing spatio-temporal data with R: everything you always wanted to know -- but were afraid to ask
+6873630,"Deep neural networks, gradient-boosted trees, random forests: statistical arbitrage on the S\&P 500"
+7055522,Elements of Copula Modeling with R
+6333330,Computational finance. An introductory course with R
+7647744,Lasso regression in sparse linear model with $$\varphi $$-mixing errors
+7110436,Exploiting social media with higher-order Factorization Machines: statistical arbitrage on high-frequency data of the S&amp;P 500
+7013637,Pairs trading with a mean-reverting jump–diffusion model on high-frequency data
+7013646,Statistical arbitrage with vine copulas
+6980773,"Exploring, handling, imputing and evaluating missing data in statistical analyses: a review of existing approaches"
+6718348,Computational methods for numerical analysis with R
+6850285,Comparing the rankings obtained from two biodiversity indices: the fair proportion index and the Shapley value
+6499939,Assessing phenotypic correlation through the multivariate phylogenetic latent liability model
+7157310,Fast likelihood calculation for multivariate Gaussian phylogenetic models with shifts
+6623171,A comparison of ancestral state reconstruction methods for quantitative characters
+6676672,Bioinformatics
+6890538,On the estimation of nested Archimedean copulas: a theoretical and an experimental comparison
+7593618,The Shape of Phylogenies Under Phase-Type Distributed Times to Speciation and Extinction
+7668243,Inferring Phenotypic Trait Evolution on Large Trees With Many Incomplete Measurements
+7354780,Working out the bipedal walking expenditure of energy based on foot morphology of different hominid genera: implications for foot evolution
+6257748,Functional and Phylogenetic Ecology in R
+7178862,Modeling rate of adaptive trait evolution using Cox-Ingersoll-Ross process: an approximate Bayesian computation approach
+6937660,Identical inferences about correlated evolution arise from ancestral state reconstruction and independent contrasts
+6804477,Independent component analysis for tensor-valued data
+7517342,Design and analysis of experiments and observational studies using R
+7020452,Putting phylogeny into the analysis of biological traits: a methodological approach
+6383654,Partial distance correlation with methods for dissimilarities
+6918382,SMILE: a novel dissimilarity-based procedure for detecting sparse-specific profiles in sparse contingency tables
+7779923,A comparison of the Mantel test with a generalised distance covariance test
+7805164,Multiple hypothesis testing with persistent homology
+7569965,Choosing among notions of multivariate depth statistics
+6495015,A multivariate uniformity test for the case of unknown support
+6647118,Unbiased estimation of the volume of a convex body
+6921476,Anatomical curve identification
+7747448,Template Independent Component Analysis with Spatial Priors for Accurate Subject-Level Brain Network Estimation and Inference
+6890166,Polynomial volume estimation and its applications
+6918684,Identifying connected components in Gaussian finite mixture models for clustering
+6967149,Unobservable or omitted production variables in data envelopment analysis through unit-specific production trade-offs
+5284805,Morphometrics with R
+7498036,Process capability vector for multivariate nonlinear profiles
+6981474,Statistical Analysis of Microbiome Data with R
+5565014,Feature significance for multivariate kernel density estimation
+6267565,Analysis of multivariate and high-dimensional data
+6075255,Polynomial histograms for multivariate density and mode estimation
+6126072,Twenty years of rewriting logic
+5589972,Proving operational termination of membership equational programs
+5374252,MTT: The Maude Termination Tool (System Description)
+6416983,Operational termination of membership equational programs: the order-sorted way
+5222815,On the Completeness of Context-Sensitive Order-Sorted Specifications
+5276416,Termination of just/fair computations in term rewriting
+6583574,Methods for proving termination of rewriting-based programming languages by transformation
+2201289,Polynomials over the reals in proofs of termination: from theory to practice
+6062063,SAT Modulo Linear Arithmetic for Solving Polynomial Constraints
+5918235,Lazy productivity via termination
+5117648,Proving termination of context-sensitive rewriting by transformation
+5587946,Solving Non-linear Polynomial Arithmetic via SAT Modulo Linear Arithmetic
+6155656,The recursive path and polynomial ordering for first-order and higher-order terms
+5839829,Proving Termination Properties with mu-term
+5053005,"On the relative power of polynomials with real, rational, and integer coefficients in proofs of termination of rewriting"
+5498220,Search Techniques for Rational Polynomial Orders
+6037807,Sufficient completeness verification for conditional and constrained TRS
+2227924,Term Rewriting and Applications
+5704032,Reducibility of operation symbols in term rewriting systems and its application to behavioral specifications
+5804237,Characterizing and proving operational termination of deterministic conditional term rewriting systems
+6184682,Multi-Completion with Termination Tools
+6241781,Proving termination of context-sensitive rewriting with MU-TERM
+5774502,From Matrix Interpretations over the Rationals to Matrix Interpretations over the Naturals
+5773134,Context-sensitive dependency pairs
+5798869,Proving Termination in the Context-Sensitive Dependency Pair Framework
+5703470,Goal-Directed and Relative Dependency Pairs for Proving the Termination of Narrowing
+7628191,Term Orderings for Non-reachability of (Conditional) Rewriting
+5344247,Termination of Innermost Context-Sensitive Rewriting Using Dependency Pairs
+5317327,Usable Rules for Context-Sensitive Rewrite Systems
+7437084,Multi-Dimensional Interpretations for Termination of Term Rewriting
+6241780,Improving the context-sensitive dependency graph
+7632089,Tuple Interpretations for Termination of Term Rewriting
+6583567,Using context-sensitive rewriting for proving innermost termination of rewriting
+5496701,Termination of Narrowing Using Dependency Pairs
+5557941,Functional Data Analysis with R and MATLAB
+7024838,Semiparametric Regression with R
+2216467,R graphics.
+6204698,R kompakt
+7431351,Recent advances in directional statistics
+5898103,R graphics
+6692812,The R primer
+7499086,Fast Computation of Tukey Trimmed Regions and Median in Dimension<i>p</i> &gt; 2
+6441926,Preconditioning the Lasso for sign consistency
+7426051,A statistical pipeline for identifying physical features that differentiate classes of 3D shapes
+7193773,An evaluation of likelihood-based bandwidth selectors for spatial and spatiotemporal kernel estimates
+7117344,Magnetic Resonance Brain Imaging
+7759569,On statistical tests of functional connectome fingerprinting
+6029161,R and data mining. Examples and case studies
+7497057,The package: nonparametric regression using local rotation matrices in
+7772192,The empirical Bayes estimators of the variance parameter of the normal distribution with a conjugate inverse gamma prior under Stein’s loss function
+7792053,"New and Simplified Manual Controls for Projection and Slice Tours, With Application to Exploring Classification Boundaries in High Dimensions"
+6557291,Kernel-based semiparametric multinomial logit modelling of political party preferences
+7193883,The empirical Bayes estimators of the parameter of the Poisson distribution with a conjugate gamma prior under Stein's loss function
+7192092,"The Bayes rule of the parameter in (0,1) under the power-log loss function with an application to the beta-binomial model"
+7697738,Simple powerful robust tests based on sign depth
+7528871,"The Bayes rule of the parameter in (0,1) under Zhang’s loss function with an application to the beta-binomial model"
+6879807,Three strings of inequalities among six Bayes estimators
+7311704,Comparison among simultaneous confidence regions for nonlinear diffusion models
+6813238,Basic Elements of Computational Statistics
+7460342,"Shear strength testing of consolidated claystones: breakpoint detection of shear stress versus shear displacement curves, a statistical approach"
+7616926,Multivariate understanding of income and expenditure in United States households with statistical learning
+6377034,Computational statistics with R
+6573942,Agglomerative joint clustering of metabolic data with spike at zero: a Bayesian perspective
+6679830,Formalizing Knuth-Bendix orders and Knuth-Bendix completion
+7838499,Left-Linear Completion with AC Axioms
+5934372,AC Completion with Termination Tools
+5374251,Multi-completion with Termination Tools (System Description)
+6027911,Optimizing \(\text{mkb}_{\text{TT}}\)
+7805741,Towards automated deduction in cP systems
+6515504,Encoding Dependency Pair Techniques and Control Strategies for Maximal Completion
+7596584,A lower bound of the number of rewrite rules obtained by homological methods
+7359426,Completion for logically constrained rewriting
+5347566,Slothrop: Knuth-Bendix Completion with a Modern Termination Checker
+6184690,Paramodulation with Non-Monotonic Orderings and Simplification
+7740692,Order reconfiguration under width constraints
+6319512,Completion after program inversion of injective functions
+6076932,KBCV – Knuth-Bendix Completion Visualizer
+5703525,Proving Injectivity of Functions via Program Inversion in Term Rewriting
+5186558,Model checking mobile stochastic logic
+5262036,Multiple-labelled transition systems for nominal calculi and their logics
+5069218,Formal Methods for Components and Objects
+6301606,A logic of behaviour in context
+5214640,Morph Moulder: teaching software for HPSG and description logics
+5069291,CONCUR 2005 – Concurrency Theory
+5315339,A theory of system behaviour in the presence of node and link failure
+5199618,Basic observables for a calculus for global computing
+5028694,On the expressive power of \textsc{Klaim}-based calculi
+5117730,Global computing in a dynamic network of tuple spaces
+6238207,Extensionality of spatial observations in distributed systems
+5686009,Verification: Theory and Practice
+5301103,Mechanical Verification of Transactional Memories with Non-transactional Memory Accesses
+5679031,Explicit Fair Scheduling for Dynamic Control
+5221245,Verification of Boolean programs with unbounded thread creation
+5900644,Proving linearizability with temporal logic
+5546891,Temporal Verification of Fault-Tolerant Protocols
+2199308,Computer Aided Verification
+6052549,A model checking-based approach for security policy verification of mobile systems
+6246018,The rewriting logic semantics project: a progress report
+5940759,The Rewriting Logic Semantics Project: A Progress Report
+6171345,Verifying hierarchical Ptolemy II discrete-event models using real-time maude
+5713418,An algebraic semantics for MOF
+5795666,Graph Transformation for Domain-Specific Discrete Event Time Simulation
+5798878,On the Behavioral Semantics of Real-Time Domain Specific Visual Languages
+6094343,Timed CTL Model Checking in Real-Time Maude
+6549980,PTL: a model transformation language based on logic programming
+2214570,Average nutrient uptake by a self-propelled unsteady squirmer
+5940220,The stability and dynamics of localized spot patterns in the two-dimensional Gray-Scott model
+5586598,Spot Self-Replication and Dynamics for the Schnakenburg Model in a Two-Dimensional Domain
+1288918,Truncation strategies for optimal Krylov subspace methods
+5080117,An adaptive grid refinement strategy for the simulation of negative streamers
+1942665,Shallow viscoplastic flow on an inclined plane
+5353349,Zigzag and breakup instabilities of stripes and rings in the two-dimensional Gray-Scott model
+1101858,Algorithm 758: VLUGR2: A vectorizable adaptive-grid solver for PDEs in 2D
+5698562,Unstable Van der waals driven line rupture in marangoni driven thin viscous films
+2117592,Axisymmetric ring solutions of the 2D Gray-Scott model and their destabilization into spots
+6555627,Explicitly solvable nonlocal eigenvalue problems and the stability of localized stripes in reaction-diffusion systems
+5029158,Solution of equilibrium radiation diffusion problems using implicit adaptive mesh refinement
+2062777,Tensor-product adaptive grids based on coordinate transformations.
+5991631,Second order positive schemes by means of flux limiters for the advection equation
+6019422,An analysis of a phase-field model for isothermal binary alloy solidification with convection under the influence of magnetic field
+1679826,A simple numerical approach for assessing coupled transport processes in partitioning systems
+6310265,Solving boundary value problems in the open source software R: package bvpSolve
+6752032,Finite difference numerical solution of Troesch’s problem on a piecewise uniform Shishkin mesh
+6344040,Algorithm 927: The MATLAB code bvptwp.m for the numerical solution of two point boundary value problems
+7089075,Symplectic integration of boundary value problems
+7603255,Mesh selection strategies of the code TOM for Boundary Value Problems
+7109811,Fluid statics of a self-gravitating perfect-gas isothermal sphere
+6596622,A new mesh selection strategy with stiffness detection for explicit Runge-Kutta methods
+7419125,Mathematical aspects relative to the fluid statics of a self-gravitating perfect-gas isothermal sphere
+7039692,On graded meshes for a two-parameter singularly perturbed problem
+7037533,A Block Hybrid Method for Non-linear Second Order Boundary Value Problems
+7518222,Numerical solution of nonlinear differential boundary value problems using adaptive non-overlapping domain decomposition method
+7484263,Solving second order two-point boundary value problems accurately by a third derivative hybrid block integrator
+6920081,Algorithm 981: \texttt{Talbot Suite DE}: application of modified Talbot's method to solve differential problems
+2187833,Algorithm 821: A Fortran interface to POSIX threads
+6669500,A dissection solver with kernel detection for symmetric finite element matrices on shared memory computers
+2174896,Combining test case generation and runtime verification
+6238028,Parallel Programming
+2184166,A web-based spatial data access system using semantic \(R\)-trees
+6002749,Conservative interpolation on unstructured polyhedral meshes: an extension of the supermesh approach to cell-centered finite-volume variables
+6642860,Reliable generation of high-performance matrix algebra
+1413981,Parallelization of adaptive MC integrators
+6845855,OpenCL Based Parallel Algorithm for RBF-PUM Interpolation
+5897347,Barriers in Concurrent Separation Logic
+6569659,Scientific computations on multi-core systems using different programming frameworks
+6035667,Barriers in concurrent separation logic: now with tool support!
+5844575,Parallel multithreaded IDA* heuristic search: algorithm design and performance evaluation
+6228826,High accuracy and interval arithmetic on multicore processors
+6716341,MINIME: pattern-aware multicore benchmark synthesizer
+6386632,Resolution of an inverse thermal problem using parallel processing on shared-memory multiprocessor architectures
+5940542,"A parallel multi-unit resource deadlock detection algorithm with \(O(\log _2(\min (m, n)))\) overall run-time complexity"
