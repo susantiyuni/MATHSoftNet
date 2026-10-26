@@ -1,8 +1,6 @@
 # MATHSoftNet: A Multi-View Dataset of Mathematical Research Software Relationships (2026)
 
-## Overview
-
-_MATHSoftNet_ is a multi-view dataset designed to support systematic investigations of the software ecosystem and its connections to the broader landscape of mathematical research. MATHSoftNet integrates expert-curated and automatically generated networks of software relationships with software-specific metadata and bibliographic information. Additionally, it includes software communities derived from graph topology, supporting the exploration of the mathematic software ecosystem's structure and organization.
+_MATHSoftNet_ is a multi-view dataset of mathematical software integrating expert-curated and automatically generated networks of software relationships, situated within the broader landscape of mathematical research.
 
 **IMPORTANT**: MATHSoftNet is archived on Zenodo for long-term preservation and accessibility; we provide a sample of approximately 200 records of the data on GitHub.
 
@@ -60,7 +58,7 @@ The following statistics are reported as of October 2026:
 ### Prerequisites
 
 - Python 3.12+  
-- Python libraries: `networkx`, `numpy`, and others (see requirements.txt)
+- Python libraries: `networkx`, `numpy`, and others (see [`requirements.txt`](requirements.txt))
 
 Install the dependencies:
 
