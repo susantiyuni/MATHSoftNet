@@ -14,6 +14,8 @@ python alignment.py
 
 This will calculate the. 
 
+Note: To reproduce the use case on sample data, update the input and output file paths in alignment.py before execution.
+
 ### Result summary
 
 Of the 313,364 edges connecting 32,978 software nodes in MATHSoftNet, 166,242 (53.05%) linked software pairs sharing at least one associated publication. In contrast, fewer than 0.1% of the randomly sampled non-edge pairs shared a publication, yielding a difference of 53.02 percentage points.
