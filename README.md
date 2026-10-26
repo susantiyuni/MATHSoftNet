@@ -10,18 +10,17 @@ _MATHSoftNet_ is a multi-view dataset designed to support systematic investigati
 ## Contents
 
 - [Dataset Sizes and Statistics](#dataset-sizes-and-statistics)
-- [Key Features and Data Samples](#key-features-and-data-sample)
-- [Construction and Setup](#construction-and-setup)
+- [Key Features and Data Samples](#key-features-and-data-samples)
+- [Data Construction and Validation](#construction-and-validation)
   - [Prerequisites](#prerequisites)
-  - [Data Harvesting](#data-harvesting)
-  - [RDF Construction](#rdf-construction)
-  - [RDF Triple Store Setup](#rdf-triple-store-setup)
+  - [Data Harvesting and Construction](#data-harvesting-and-construction)
+  - [Data Preprocessing and Validation](#data-preprocessing-and-validation)
 - [Repository Structure](#repository-structure)
 - [License](#license)
 - [Citation](#citation)
 - [Contact and Maintenance](#contact-and-maintenance)
 
-## Key Statistics
+## Dataset Sizes and Statistics
 
 The following statistics are reported as of October 2026:
 
@@ -60,39 +59,38 @@ The following statistics are reported as of October 2026:
 ### Prerequisites
 
 - Python 3.12+  
-- Python libraries: `rdflib`, `SPARQLWrapper`, and others (see requirements.txt)  
-  - We use [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) as an example for its simplicity  
-  - *Note:* Production SPARQL endpoints use Virtuoso (See the [`zb-virtuoso`](./zb-virtuoso) directory for the complete Virtuoso setup.)
+- Python libraries: `networkx`, `numpy`, and others (see requirements.txt)
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Data Harvesting and Construction
 
-To harvest data by zbMATH ID (e.g., ID list of zbMATH open access subset: [zbMATH OA subset](https://zenodo.org/records/8021789)), run:
-
-```bash
-python src/harvest-by-id.py 
-```
-
-For bulk download (via _sickle_), refers to: [zbMATHOpen Harvester](https://github.com/zbMATHOpen/mscHarvester)
+For details on data harvesting and construction, see [to be added].
 
 ### Data Preprocessing and Validation
 
-Using raw `.jsonl` zbMATH data obtained from the API (see example: [`data/subset-200.jsonl`](./data/subset-200.jsonl)), run the following commands to automatically generate the RDF KG:
+Preprocess the dataset by running:
 
 ```bash
-# Option 1: Run the Python script
-python src/create-rdf-v2.py --inp data/subset-200.jsonl --out data/subset-200.ttl --nt 0
-
-# Option 2: Run the shell script for batch processing
-run-convert.sh
-
+python src/preprocess.py
 ```
+
+Validate the dataset by running the following script, which will check the dataset's structural consistency and metadata completeness coverage.
+```bash
+python src/validate.py
+
+Note: To reproduce validation on sample data, update the input and output file paths in [`src/validate.py`](./src/validate.py) before execution.
 
 ## Repository Structure
 
 - [`data/`](./data) – `.jsonl` raw data and `.ttl` RDF KG (subset), ontology files (`.ttl`), etc.
 - [`src/`](./src) – Source code for KG construction (data harvest, statistics calculation, RDF transformation, etc).
-- [`src/`](./src) – Source code for KG construction (data harvest, statistics calculation, RDF transformation, etc).
-- [`run-convert.sh`](./run-convert.sh) – Shell script to convert raw data into RDF format
+- [`use-case/`](./use-case) – Source code for KG construction (data harvest, statistics calculation, RDF transformation, etc).
+- [`requirements.txt`](./requirements.txt) – library and packages required to run the data processing, validation, and use-case.
 - [`README.md`](./README.md) – Project documentation
 
 ## Citation
