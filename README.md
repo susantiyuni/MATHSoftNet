@@ -52,7 +52,7 @@ The following statistics are reported as of October 2026:
 - **Software–_Mathematical Subject Classification_ (MSC) Association**  
   We link each software to the subject classification (MSC) codes; a sample of 200 records is available here: [`data/software-msc-sample.csv`](./data/software-msc-sample.csv). 
   
-## Data Construction and Validation
+## Data Construction, Validation, Usage
 
 ### Prerequisites
 
