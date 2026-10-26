@@ -15,6 +15,7 @@ _MATHSoftNet_ is a multi-view dataset designed to support systematic investigati
   - [Prerequisites](#prerequisites)
   - [Data Harvesting and Construction](#data-harvesting-and-construction)
   - [Data Preprocessing and Validation](#data-preprocessing-and-validation)
+  - [Data Usage](#data-usage)
 - [Repository Structure](#repository-structure)
 - [License](#license)
 - [Citation](#citation)
@@ -86,13 +87,9 @@ python src/validate.py
 
 Note: To reproduce validation on sample data, update the input and output file paths in [`src/validate.py`](./src/validate.py) before execution.
 
-## Repository Structure
+## Data Usage
 
-- [`data/`](./data) – `.jsonl` raw data and `.ttl` RDF KG (subset), ontology files (`.ttl`), etc.
-- [`src/`](./src) – Source code for KG construction (data harvest, statistics calculation, RDF transformation, etc).
-- [`use-case/`](./use-case) – Source code for KG construction (data harvest, statistics calculation, RDF transformation, etc).
-- [`requirements.txt`](./requirements.txt) – library and packages required to run the data processing, validation, and use-case.
-- [`README.md`](./README.md) – Project documentation
+The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study comparing two dataset views: the software relationship graph and software–publication associations. The study examines the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [`use-case directory`](./use-case/).
 
 ## Citation
 
@@ -100,10 +97,10 @@ Note: To reproduce validation on sample data, update the input and output file p
 
 ## License
 
-All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source, as specified [here](https://oai.zbmath.org/).
+All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source, specified [here](https://oai.zbmath.org/).
 
 ## Contact and Maintenance:
 
-The construction process is designed as a reproducible pipeline over the continuously maintained zbMATH Open platform. The knowledge graph is planned to be updated periodically, approximately twice per year subject to the availability of the underlying data stream, resource and infrastructure constraint.
+MATHSoftNet is maintained by FIZ Karlsruhe, and planned to be updated annually, subject to the availability of the underlying data stream, resource and infrastructure constraint.
 
 📧 yuni.susanti@fiz-karlsruhe.de
