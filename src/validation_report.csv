@@ -1,0 +1,39 @@
+category,check,status,observed,details
+Structure,Software IDs unique,PASS,45210,0 duplicate or missing-ID rows
+Structure,Exact duplicate rows: software.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_edges.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_communities.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_community_summary.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_publications.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_msc.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: software_summary.csv,PASS,0,Exact duplicate rows
+Structure,Exact duplicate rows: paper_lookup.csv,PASS,0,Exact duplicate rows
+Structure,Entirely empty columns: software.csv,PASS,0,None
+Structure,Entirely empty columns: software_edges.csv,PASS,0,None
+Structure,Entirely empty columns: software_communities.csv,PASS,0,None
+Structure,Entirely empty columns: software_community_summary.csv,PASS,0,None
+Structure,Entirely empty columns: software_publications.csv,PASS,0,None
+Structure,Entirely empty columns: software_msc.csv,PASS,0,None
+Structure,Entirely empty columns: software_summary.csv,PASS,0,None
+Structure,Entirely empty columns: paper_lookup.csv,PASS,0,None
+Graph,Self-loops,PASS,0,Edges connecting a software item to itself
+Graph,Duplicate undirected edges,PASS,0,Duplicate pairs after canonicalizing edge direction
+Graph,Edge endpoints found in software catalogue,PASS,0,Unknown endpoint IDs
+Graph,Software records outside relationship graph,INFO,12232,Metadata records without a retained relationship edge
+Graph,Unique graph nodes,INFO,32978,Nodes appearing in at least one retained edge
+Graph,Unique undirected graph edges,INFO,313364,After duplicate pairs and self-loops are removed
+Graph,Connected components,INFO,170,Computed on the graph represented by the edge list
+Graph,Isolated nodes in edge-derived graph,INFO,0,An edge-list-only graph cannot contain nodes with degree zero
+Communities,Graph nodes without community assignment,PASS,0,Graph node IDs absent from the community file
+Communities,Community IDs absent from graph,PASS,0,Community file IDs not represented in the edge list
+Communities,Nodes assigned to multiple communities,REVIEW,7,Standard Louvain partitioning should assign one community per node
+Communities,Duplicate node-community rows,PASS,0,Repeated identical assignments
+Publications,Duplicate software-publication associations,PASS,0,Duplicate software_id-paper_id pairs
+Publications,Publication links to unknown software IDs,PASS,0,Software IDs in software_publications.csv absent from software.csv
+Publications,Publication links to unknown paper IDs,PASS,0,Paper IDs in software_publications.csv absent from paper_lookup.csv
+Publications,Paper lookup IDs unique,PASS,172997,Expected one lookup record per paper ID
+MSC,Duplicate software-MSC associations,PASS,0,Duplicate software_id-MSC pairs
+MSC,MSC links to unknown software IDs,PASS,0,Software IDs in software_msc.csv absent from software.csv
+MSC,Missing MSC codes,PASS,0,MSC mapping rows without a classification value
+Summaries,Software IDs missing from software_summary.csv,INFO,10436,Compare with intended inclusion rules for this summary
+Summaries,Unknown IDs in software_summary.csv,PASS,0,Summary IDs absent from software.csv
