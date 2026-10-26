@@ -1,6 +1,6 @@
 ## MATHSoftNet Use Case
 
-#### RQ: _To what extent do expert-annotated software relationships align with associations observed in the research literature?_
+#### RQ: _To what extent do expert-annotated software relationships align with associations observed in the scientific literature?_
 
 To demonstrate the dataset utility, we conducted a preliminary use-case study combining two dataset views: the software relationship graph and software–publication associations. The analysis examines whether expert-annotated software relationships correspond to bibliographic co-occurrence.
 
