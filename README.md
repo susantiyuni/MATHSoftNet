@@ -82,6 +82,7 @@ python src/preprocess.py
 Validate the dataset by running the following script, which will check the dataset's structural consistency and metadata completeness coverage.
 ```bash
 python src/validate.py
+```
 
 Note: To reproduce validation on sample data, update the input and output file paths in [`src/validate.py`](./src/validate.py) before execution.
 
