@@ -89,7 +89,7 @@ Note: To reproduce validation on sample data, update the input and output file p
 
 ## Data Usage
 
-The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study comparing two dataset views: the software relationship graph and software–publication associations. The study examines the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [`use-case directory`](./use-case/).
+The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [`use-case directory`](./use-case/).
 
 ## Citation
 
