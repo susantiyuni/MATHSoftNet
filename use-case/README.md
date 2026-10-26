@@ -1,4 +1,4 @@
-## MATHSoftNet Use Case
+## MATHSoftNet Use Case Example
 
 #### RQ: _To what extent do expert-annotated software relationships align with associations observed in the scientific literature?_
 
