@@ -131,12 +131,12 @@ for u, v in edge_pairs:
     graph_nodes.add(u)
     graph_nodes.add(v)
 
-# Restrict bibliographic analysis to the nodes in the catalogue graph.
+# Restrict bibliographic analysis to the nodes in the expert-defined software relationship graph.
 links = links[links["software_id"].isin(graph_nodes)].copy()
 
 print("Loaded data")
 print(f"  Unique graph nodes: {len(graph_nodes):,}")
-print(f"  Unique undirected catalogue edges: {len(edge_pairs):,}")
+print(f"  Unique undirected expert-defined edges: {len(edge_pairs):,}")
 print(f"  Unique software-publication links in graph: {len(links):,}")
 print(f"  Publications represented in graph: {links['publication_id'].nunique():,}")
 
@@ -180,7 +180,7 @@ cooccurrence_df.to_csv(
 cooccurrence_lookup = dict(cooccurrence_count)
 publication_count = links.groupby("software_id")["publication_id"].nunique().to_dict()
 
-# ------------------- Score catalogue graph edges --------------------
+# ------------------- Score expert-defined software relationship graph edges --------------------
 
 edge_records = []
 for u, v in edge_pairs:
@@ -279,25 +279,25 @@ p90_edge_shared = (
 
 summary = [
     ("graph_nodes", len(graph_nodes), "Unique software IDs appearing in an edge"),
-    ("catalogue_edges", n_edges, "Unique undirected, non-self-loop edges"),
+    ("expert_edges", n_edges, "Unique undirected, non-self-loop edges"),
     ("software_publication_links", len(links), "Unique links restricted to graph nodes"),
     ("publications_in_graph", links["publication_id"].nunique(), "Unique linked publications"),
     ("publication_cooccurrence_pairs", len(cooccurrence_df), "Pairs sharing at least one publication, within configured paper-size limit"),
     ("papers_with_two_or_more_software", int((software_by_paper.map(len) >= 2).sum()), "Papers linked to at least two graph software records"),
     ("papers_used_for_pair_generation", papers_with_pairs, "Papers used to generate co-occurrence pairs"),
     ("papers_skipped_large", skipped_large_papers, f"Papers exceeding {MAX_SOFTWARE_PER_PUBLICATION} linked software records"),
-    ("catalogue_edges_with_shared_publication", edge_overlap_n, "Edges whose endpoints share at least one linked publication"),
-    ("catalogue_edge_overlap_rate", edge_overlap_rate, "Descriptive fraction of catalogue edges with publication overlap"),
-    ("sampled_non_edges", n_non_edges, "Randomly sampled pairs absent from the catalogue graph"),
+    ("expert_edges_with_shared_publication", edge_overlap_n, "Edges whose endpoints share at least one linked publication"),
+    ("expert_edge_overlap_rate", edge_overlap_rate, "Descriptive fraction of expert edges with publication overlap"),
+    ("sampled_non_edges", n_non_edges, "Randomly sampled pairs absent from the expert graph"),
     ("sampled_non_edges_with_shared_publication", nonedge_overlap_n, "Sampled non-edges with publication overlap"),
     ("sampled_nonedge_overlap_rate", nonedge_overlap_rate, "Descriptive overlap fraction among sampled non-edges"),
     ("overlap_rate_difference", edge_overlap_rate - nonedge_overlap_rate if n_edges and n_non_edges else np.nan, "Edge overlap rate minus sampled non-edge overlap rate"),
     ("fisher_odds_ratio", odds_ratio, "Unadjusted odds ratio for overlap in edges versus sampled non-edges"),
     ("fisher_exact_p_value", fisher_p, "Unadjusted Fisher exact test; not popularity-adjusted"),
-    ("mean_shared_publications_edges", mean_edge_shared, "Mean shared-publication count per catalogue edge"),
+    ("mean_shared_publications_edges", mean_edge_shared, "Mean shared-publication count per expert edge"),
     ("mean_shared_publications_sampled_non_edges", mean_nonedge_shared, "Mean shared-publication count per sampled non-edge"),
-    ("median_shared_publications_edges", median_edge_shared, "Median shared-publication count per catalogue edge"),
-    ("p90_shared_publications_edges", p90_edge_shared, "90th percentile shared-publication count for catalogue edges"),
+    ("median_shared_publications_edges", median_edge_shared, "Median shared-publication count per expert edge"),
+    ("p90_shared_publications_edges", p90_edge_shared, "90th percentile shared-publication count for expert edges"),
 ]
 
 summary_df = pd.DataFrame(summary, columns=["statistic", "value", "interpretation"])
@@ -310,7 +310,7 @@ if SOFTWARE_FILE.exists():
         sid_col = find_col(
             software_df,
             ["software_id", "id", "sw_id", "softwareid"],
-            "software catalogue ID",
+            "software ID",
             SOFTWARE_ID,
         )
         name_col = find_col(
@@ -337,7 +337,7 @@ if SOFTWARE_FILE.exists():
 # Print an empirical mini-report from this run.
 print("\nALIGNMENT RESULTS")
 print("-----------------")
-print(f"Catalogue edges with shared publication: {edge_overlap_n:,}/{n_edges:,} "
+print(f"Expert edges with shared publication: {edge_overlap_n:,}/{n_edges:,} "
       f"({edge_overlap_rate:.2%})" if n_edges else "No edges found.")
 print(f"Sampled non-edges with shared publication: {nonedge_overlap_n:,}/{n_non_edges:,} "
       f"({nonedge_overlap_rate:.2%})" if n_non_edges else "No non-edges sampled.")
