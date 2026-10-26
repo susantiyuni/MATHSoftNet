@@ -11,8 +11,8 @@ _MATHSoftNet_ is a multi-view dataset of mathematical software integrating exper
 - [Key Features and Data Samples](#key-features-and-data-samples)
 - [Data Construction, Validation, Usage](#data-construction-validation-usage)
   - [Prerequisites](#prerequisites)
-  - [Data Harvesting and Construction](#data-harvesting-and-construction)
-  - [Data Preprocessing and Validation](#data-preprocessing-and-validation)
+  - [Data Construction](#data-construction)
+  - [Data Validation](#data-validation)
   - [Data Usage](#data-usage)
 - [License](#license)
 - [Citation](#citation)
@@ -65,17 +65,17 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-### Data Harvesting and Construction
-
-For details on data harvesting and construction, see [to be added].
-
-### Data Preprocessing and Validation
+### Data Construction
 
 Preprocess the dataset by running:
 
 ```bash
 python src/preprocess.py
 ```
+
+The detailed source code for the construction are provided in [`./src`](./src/).
+
+### Data Validation
 
 Validate the dataset by running the following script, which will check the dataset's structural consistency and metadata completeness coverage.
 ```bash
