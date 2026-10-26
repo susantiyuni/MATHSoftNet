@@ -1,16 +1,16 @@
-# MATHSoftNet
+# MATHSoftNet: A Multi-View Dataset of Mathematical Research Software Relationships (2026)
 
 ## Overview
 
-MATHSoftNet is a multi-view dataset designed to support systematic investigations of the software ecosystem and its connections to the broader landscape of mathematical research. MATHSoftNet integrates expert-curated and automatically generated networks of software relationships with software-specific metadata and bibliographic information. Additionally, it includes software communities derived from graph topology, supporting the exploration of the mathematic software ecosystem's structure and organization.
+_MATHSoftNet_ is a multi-view dataset designed to support systematic investigations of the software ecosystem and its connections to the broader landscape of mathematical research. MATHSoftNet integrates expert-curated and automatically generated networks of software relationships with software-specific metadata and bibliographic information. Additionally, it includes software communities derived from graph topology, supporting the exploration of the mathematic software ecosystem's structure and organization.
 
-**Update**: MATHSoftNet is archived on Zenodo for long-term preservation and accessibility; we provide a sample of the data on GitHub.
+**IMPORTANT**: MATHSoftNet is archived on Zenodo for long-term preservation and accessibility; we provide a sample of approximately 200 records of the data on GitHub.
 
 ---
 ## Contents
 
 - [Dataset Sizes and Statistics](#dataset-sizes-and-statistics)
-- [Key Features](#key-features)
+- [Key Features and Data Samples](#key-features-and-data-sample)
 - [Construction and Setup](#construction-and-setup)
   - [Prerequisites](#prerequisites)
   - [Data Harvesting](#data-harvesting)
@@ -38,22 +38,22 @@ The following statistics are reported as of October 2026:
 - **Software--MSC links**: 138,973
 - **Software--MSC links (unique)**: 35,456
   
-## Key Features
+## Key Features and Data Samples
 
 - **Curated Mathematical Software Metadata Records**  
-  Compliant with RDF and Semantic Web standards, the zbMATH Open KG is built entirely from RDF triples using widely adopted ontologies and vocabularies. A sample of 200 records is available here: [`data/subset-200.ttl`](./data/subset-200-v2.ttl). 
+  Expert-curated software records, containing package-level metadata, including _names, authors, descriptions, homepages, keywords, dependencies, programming languages, supported operating systems, licenses, source-code links, mathematical subject classifications, publication references_, etc. A sample of 200 records is available here: [`data/software-records-sample.csv`](./data/software-records-sample.csv). 
 
 - **Software Relationship Graph**  
-  In addition to standard bibliographic metadata, the KG incorporates annotated mathematical publications.
+  An undirected software relationship graph from the _related software_ associations curated by human-expert. We provide a sample of 200 records of the graph edges here: [`data/software-edges-sample.csv`](./data/software-edges-sample.csv). 
 
-- **Software Community Assignment**  
-  Its comprehensive and long-term coverage enable long-range intellectual analysis such as historically-grounded retrieval.
+- **Software Community Assignments**  
+  Software community assignments for each software node in the software relationship graphs, derived using Louvain community detection algorithm. A sample of 200 records is available here: [`data/software-community-sample.csv`](./data/software-community-sample.csv). 
 
-- **Software--Publication Associations**  
-  A SPARQL endpoint (temporarily at [**SPARQL endpoint url**](http://212.227.170.235:8890/sparql)) 
+- **Software–Publication Associations**  
+  We link each software to the publication records associated with the software in the data source. A sample of 200 records is available here: [`data/software-publication-sample.csv`](./data/software-publication-sample.csv). The publication lookup examples are provided here: [`data/publication-records-sample.csv`](./data/publication-records-sample.csv)
   
-- **Software-–_Mathematical Subject Classification_ (MSC) Association**  
-URI resolution for core entities (i.e., publications, scholars, software references). 
+- **Software–_Mathematical Subject Classification_ (MSC) Association**  
+  We link each software to the subject classification (MSC) codes; a sample of 200 records is available here: [`data/software-msc-sample.csv`](./data/software-msc-sample.csv). 
   
 ## Data Construction and Validation
 
