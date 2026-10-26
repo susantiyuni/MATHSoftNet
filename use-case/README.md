@@ -1,8 +1,10 @@
-## MATHSoftNet Use Case: Expert-defined Software Relationships and Bibliographic Co-occurrence
+## MATHSoftNet Use Case
 
-MATHSoftNet supports systematic investigations of mathematical software and its connections to the scholarly ecosystem. To demonstrate its utility, we conducted a preliminary use-case study combining two dataset views: the software relationship graph and software–publication associations. The analysis examines whether expert-annotated software relationships correspond to bibliographic co-occurrence.
+#### RQ: _To what extent do expert-annotated software relationships align with associations observed in the research literature?_
 
-For each edge in the software relationship graph, we checked whether the two connected software nodes shared at least one associated publication. We compared the results with randomly sampled software pairs not connected by an edge in the graph.
+To demonstrate the dataset utility, we conducted a preliminary use-case study combining two dataset views: the software relationship graph and software–publication associations. The analysis examines whether expert-annotated software relationships correspond to bibliographic co-occurrence.
+
+For each edge in the software relationship graph, we checked whether the two connected software nodes shared at least one associated publication. We compared the results with a total of 1,566,820 randomly sampled software pairs not connected by an edge in the graph.
 
 To reproduce this, run the following script:
 
