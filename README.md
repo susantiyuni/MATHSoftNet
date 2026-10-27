@@ -22,18 +22,17 @@ _MATHSoftNet_ is a multi-view dataset of mathematical research software that int
 
 The following statistics are reported as of October 2026:
 
-- **Software records**: 45,210
-- **Software relationship graph**
+- Software records: 45,210
+- Software relationship graph
   - Software nodes: 32,978
   - Edges: 313,364
   - Connected components: 12,402
-- **Software community**
+- Software community
   - Community partitions: 197
   - Software--community links: 32,978
   - Connected components: 12,402
-- **Software--publication links**: 324,467
-- **Software--MSC links**: 138,973
-- **Software--MSC links (unique)**: 35,456
+- Software--publication links: 324,467
+- Software--MSC links: 138,973
   
 ## Key Features and Data Samples
 
@@ -94,7 +93,7 @@ The dataset supports a broad range of research directions for systematics invest
 
 ## License
 
-All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source, specified [here](https://oai.zbmath.org/).
+All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source. Refer to the detail [here](https://oai.zbmath.org/). The source code accompanying MATHSoftNet is distributed under the **MIT License**.
 
 ## Contact and Maintenance:
 
