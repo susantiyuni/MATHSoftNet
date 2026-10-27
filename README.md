@@ -89,7 +89,7 @@ The dataset supports a broad range of research directions for systematics invest
 
 ## Citation
 
-```to be added```
+_To be added upon acceptance._
 
 ## License
 
