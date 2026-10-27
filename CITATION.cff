@@ -1,1 +1,14 @@
-to be added upon acceptance
+cff-version: 1.2.0
+message: "If you use MATHSoftNet, please cite it as below."
+authors:
+- family-names: "Susanti"
+  given-names: "Yuni"
+- family-names: "Azzouz-Thuderoz"
+  given-names: "Maxence"
+- family-names: "Schubotz"
+  given-names: "Moritz"
+title: "MATHSoftNet: A Multi-View Dataset of Mathematical Research Software Relationships"
+version: 1.0.0
+doi: 10.5281/zenodo.23666256. 
+date-released: 2026-10-26
+url: "https://github.com/susantiyuni/MATHSoftNet"
