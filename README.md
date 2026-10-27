@@ -1,6 +1,6 @@
 # MATHSoftNet: A Multi-View Dataset of Mathematical Research Software Relationships (2026)
 
-_MATHSoftNet_ is a multi-view dataset of mathematical software integrating expert-curated and automatically generated networks of software relationships, situated within the broader landscape of mathematical research.
+_MATHSoftNet_ is a multi-view dataset of mathematical research software that integrates expert-curated software metadata with networks of software relationships, community assignments, publication associations, and mathematical subject classifications. The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. 
 
 **IMPORTANT**: MATHSoftNet is published on [`Zenodo:23666256`](https://doi.org/10.5281/zenodo.23666256) for long-term preservation and accessibility; we provide a sample of approximately 200 records of the data on GitHub.
 
