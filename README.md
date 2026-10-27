@@ -93,7 +93,7 @@ _To be added upon acceptance._
 
 ## License
 
-All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source. Refer to the detail [here](https://oai.zbmath.org/). The source code accompanying MATHSoftNet is distributed under the **MIT License**.
+All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source. Refer to the detail [here](https://oai.zbmath.org/). The source code accompanying MATHSoftNet is distributed under the _MIT_ license.
 
 ## Contact and Maintenance:
 
