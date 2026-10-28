@@ -2,7 +2,7 @@
 
 _MATHSoftNet_ is a multi-view dataset of mathematical research software that integrates expert-curated software metadata with networks of software relationships, community assignments, publication associations, and mathematical subject classifications. The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. 
 
-**IMPORTANT**: MATHSoftNet is published on [`Zenodo:23666256`](https://doi.org/10.5281/zenodo.23666256) for long-term preservation and accessibility; we provide a sample of approximately 200 records of the data on GitHub.
+**IMPORTANT**: MATHSoftNet is published on Zenodo: [DOI:10.5281/zenodo.23666256](https://doi.org/10.5281/zenodo.23666256); sample data are available on GitHub.
 
 ---
 ## Contents
@@ -37,26 +37,26 @@ The following statistics are reported as of October 2026:
 ## Key Features and Data Samples
 
 - **Curated Mathematical Software Metadata Records**  
-  Expert-curated software records, containing package-level metadata, including _names, authors, descriptions, homepages, keywords, dependencies, programming languages, supported operating systems, licenses, source-code links, mathematical subject classifications, publication references_, etc. A sample of 200 records is available here: [`data/software-records-sample.csv`](./data/software-records-sample.csv). 
+  Expert-curated software records, containing package-level metadata, including _names, authors, descriptions, homepages, keywords, dependencies, programming languages, supported operating systems, licenses, source-code links_ and more. A sample of 200 records is available here: [data/software_sample.csv](./data/software_sample.csv). 
 
 - **Software Relationship Graph**  
-  An undirected software relationship graph from the _related software_ associations curated by human-expert. We provide a sample of 200 records of the graph edges here: [`data/software-edges-sample.csv`](./data/software-edges-sample.csv). 
+  An undirected software relationship graph annotated by human-expert. We provide a sample of 200 records of the graph edges here: [data/software_edges_sample.csv](./data/software_edges_sample.csv). 
 
 - **Software Community Assignments**  
-  Software community assignments for each software node in the software relationship graphs, derived using Louvain community detection algorithm. A sample of 200 records is available here: [`data/software-community-sample.csv`](./data/software-community-sample.csv). 
+  Software community assignments for each software node in the software relationship graphs, derived using Louvain community detection algorithm. A sample of 200 records is available here: [data/software_communities_sample.csv](./data/software_communities_sample.csv). 
 
 - **Software–Publication Associations**  
-  We link each software to the publication records associated with the software in the data source. A sample of 200 records is available here: [`data/software-publication-sample.csv`](./data/software-publication-sample.csv). The publication lookup examples are provided here: [`data/publication-records-sample.csv`](./data/publication-records-sample.csv)
+  We link each software to the mathematical publications associated with the software. A sample of 200 records is available here: [data/software_publications_sample.csv](./data/software_publications_sample.csv). The publication lookup examples are provided here: [data/paper_lookup_sample.csv](./data/paper_lookup_sample.csv)
   
 - **Software–_Mathematical Subject Classification_ (MSC) Association**  
-  We link each software to the subject classification (MSC) codes; a sample of 200 records is available here: [`data/software-msc-sample.csv`](./data/software-msc-sample.csv). 
+  We link each software to their mathematical subject classification (MSC); a sample of 200 records is available here: [data/software_msc_sample.csv](./data/software_msc_sample.csv). 
   
 ## Data Construction, Validation, Usage
 
 ### Prerequisites
 
 - Python 3.12+  
-- Python libraries: `networkx`, `numpy`, and others (see [`requirements.txt`](requirements.txt))
+- Python libraries: see [requirements.txt](requirements.txt)
 
 Install the dependencies:
 
@@ -66,13 +66,13 @@ pip install -r requirements.txt
 
 ### Data Construction
 
-Preprocess the dataset by running:
+Process the dataset by running:
 
 ```bash
 python src/preprocess.py
 ```
 
-The detailed source code for the construction are provided in [`./src`](./src/).
+The detailed source code for the construction are provided in [./src](./src/).
 
 ### Data Validation
 
@@ -81,11 +81,11 @@ Validate the dataset by running the following script, which will check the datas
 python src/validate.py
 ```
 
-Note: To reproduce validation on sample data, update the input and output file paths in [`src/validate.py`](./src/validate.py) before execution.
+Note: To reproduce validation on sample data, update the input and output file paths in [src/validate.py](./src/validate.py) before execution.
 
 ## Data Usage
 
-The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [`use-case directory`](./use-case/).
+The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [use-case directory](./use-case/).
 
 ## Citation
 
@@ -93,7 +93,7 @@ _To be added upon acceptance._
 
 ## License
 
-All generated content is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source. Refer to the detail [here](https://oai.zbmath.org/). The source code accompanying MATHSoftNet is distributed under the _MIT_ license.
+MATHSoftNet is distributed under the [CC-BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license, in accordance with the licensing terms of the underlying data source, refer to the detail [here](https://oai.zbmath.org/). The source code accompanying MATHSoftNet is distributed under the [MIT license](LICENSE).
 
 ## Contact and Maintenance:
 
