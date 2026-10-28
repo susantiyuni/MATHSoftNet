@@ -2,9 +2,8 @@
 
 _MATHSoftNet_ is a multi-view dataset of mathematical research software that integrates expert-curated software metadata with networks of software relationships, community assignments, publication associations, and mathematical subject classifications. The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. 
 
-**IMPORTANT**: MATHSoftNet is published on Zenodo: [DOI:10.5281/zenodo.23666256](https://doi.org/10.5281/zenodo.23666256); sample data are available on GitHub.
+MATHSoftNet is published on Zenodo: [DOI:10.5281/zenodo.23666256](https://doi.org/10.5281/zenodo.23666256); sample data are available on GitHub.
 
----
 ## Contents
 
 - [Dataset Sizes and Statistics](#dataset-sizes-and-statistics)
@@ -72,7 +71,7 @@ Process the dataset by running:
 python src/preprocess.py
 ```
 
-The detailed source code for the construction are provided in [./src](./src/).
+The detailed source code for the construction are provided in [./src/ directory](./src/).
 
 ### Data Validation
 
@@ -85,7 +84,7 @@ Note: To reproduce validation on sample data, update the input and output file p
 
 ## Data Usage
 
-The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [use-case directory](./use-case/).
+The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [./use-case/ directory](./use-case/).
 
 ## Citation
 
