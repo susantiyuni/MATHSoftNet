@@ -89,7 +89,17 @@ The dataset supports a broad range of research directions for systematics invest
 
 ## Citation
 
-_To be added upon acceptance._
+```
+@dataset{mathsoftnet2026,
+  author       = {Susanti, Yuni and Azzouz-Thuderoz, Maxence and Schubotz, Moritz},
+  title        = {MATHSoftNet: A Multi-View Dataset of Mathematical Research Software Relationships},
+  month        = oct,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.23666257},
+  url          = {https://doi.org/10.5281/zenodo.23666257},
+}
+```
 
 ## License
 
