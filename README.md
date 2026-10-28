@@ -71,7 +71,7 @@ Process the dataset by running:
 python src/preprocess.py
 ```
 
-The detailed source code for the construction are provided in [./src/ directory](./src/).
+The detailed source code for the construction are provided here: [src/](./src/) directory.
 
 ### Data Validation
 
@@ -84,7 +84,7 @@ Note: To reproduce validation on sample data, update the input and output file p
 
 ## Data Usage
 
-The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [./use-case/ directory](./use-case/).
+The dataset supports a broad range of research directions for systematics investigation of software and its connections to mathematical research ecosystem. To demonstrate its potential usage, we conducted a preliminary use-case study examining the extent to which expert-annotated software relationships align with relationships reflected in the scientific literature. Details are available in the [use-case/](./use-case/) directory.
 
 ## Citation
 
